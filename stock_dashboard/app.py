@@ -9,6 +9,7 @@ st.set_page_config(page_title="Real-Time Stock Dashboard", layout="wide")
 st.title("📈 Real-Time Stock Market Dashboard")
 
 # --- Sidebar ---
+
 st.sidebar.header("User Settings")
 ticker_symbol = st.sidebar.text_input("Enter Stock Symbol:", "TCS.NS")
 period = st.sidebar.selectbox("Select Time Period:", ["1d", "5d", "1mo", "1y", "5y"])
